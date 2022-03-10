@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T16:19:44.328Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="MwGZJy91dAKzW4ZgSKd7" version="17.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T16:50:05.693Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="RaHk7duiuQErtWCqX2Dt" version="17.0.0" type="github">
   <diagram id="4M_D3Pi3umLmw-VAeziT" name="Page-1">
-    <mxGraphModel dx="1896" dy="1016" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2370" dy="1270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qyI5GLCLb69pi6n-RlXZ-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="URnLaDO7650WdrLdtgV3-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="1190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="308" />
+              <mxPoint x="210" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="URnLaDO7650WdrLdtgV3-2" value="Virtual private cloud (EUROPE PROD) 10.1.0.0/17   Francfort ---- v01.corp" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="570" y="110" width="1410" height="790" as="geometry" />
         </mxCell>
@@ -178,7 +187,7 @@
           <mxGeometry x="-5" y="30" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qyI5GLCLb69pi6n-RlXZ-14" value="Virtual private cloud (VPC-PARIS-PROD) 10.3.0.0/19 Paris" style="swimlane;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="590" y="960" width="1140" height="530" as="geometry" />
+          <mxGeometry x="590" y="1580" width="1140" height="530" as="geometry" />
         </mxCell>
         <mxCell id="qyI5GLCLb69pi6n-RlXZ-22" value="DHCP Server" style="swimlane;startSize=23;" vertex="1" parent="qyI5GLCLb69pi6n-RlXZ-14">
           <mxGeometry x="20" y="50" width="150" height="80" as="geometry" />
@@ -332,6 +341,18 @@
         </mxCell>
         <mxCell id="qyI5GLCLb69pi6n-RlXZ-126" value="Public" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="170" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qyI5GLCLb69pi6n-RlXZ-146" value="VPC EUROPE-LEGACY (Francfort) 10.154.16.0/22" style="swimlane;strokeColor=#000000;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1060" width="460" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="qyI5GLCLb69pi6n-RlXZ-147" value="VPC LATAM-LEGACY (São Paulo) 10.154.24.0/22" style="swimlane;strokeColor=#000000;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="1050" width="359" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qyI5GLCLb69pi6n-RlXZ-148" value="VPC TRANSIT (Francfort) - 10.4.0.0/25" style="swimlane;strokeColor=#000000;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="1050" width="350" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qyI5GLCLb69pi6n-RlXZ-150" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc_peering;fillColor=#F58536;gradientColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="165.5" y="660" width="69" height="72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
